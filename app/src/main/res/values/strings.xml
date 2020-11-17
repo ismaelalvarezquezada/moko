@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">LoRa Tracker</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ensure">OK</string>
+    <string name="confirm">Confirm</string>
+
+
+    <string name="please_enter_password">Please enter password</string>
+    <string name="password_null">Password cannot be empty!</string>
+    <string name="main_password_length">The password should be 8 characters</string>
+    <string name="change_password_length">The password should be 8 characters.Please try again</string>
+    <string name="change_password_match">Password do not match!Please try again.</string>
+    <string name="main_exit_tips">Are you sure you want to quit?</string>
+    <string name="setting_syncing">syncing</string>
+
+    <string name="company_name">MOKO TECHNOLOGY LTD.</string>
+    <string name="about_title">ABOUT</string>
+    <string name="company_website">www.mokosmart.com</string>
+    <string name="storage_interval">*The device will store the Non-Alarm BLE ADV data every %ds and the same MAC addree only be saved one time.</string>
+    <string name="alarm_trigger_rssi">*The device alarm  is triggered when the BLE RSSI scanned is greater than %ddbm.</string>
+    <string name="rssi_filter">*The Beacon will store valid ADV data with RSSI no less than %ddBm.</string>
+
+    <string name="permission_storage_close_title">Storage permission is not available</string>
+    <string name="permission_storage_close_content">Please find it in cellphone setting- permission, and allow LoRaTracker use the Storage permission</string>
+    <string name="permission_open">OK</string>
+    <string name="permission_storage_need_title">Please turn on Storage permissions</string>
+    <string name="permission_storage_need_content">LoRaTracker requires access to Location and Storage permission. If the permissions are not on, LoRaTracker cannot be used normally.</string>
+    <string name="location_need_title">Turn on Location permission</string>
+    <string name="location_need_content">After that, LoRaTracker could search and connect with the Device</string>
+    <string name="permission_location_close_title">Location persission is not available</string>
+    <string name="permission_location_close_content">Please find it in cellphone setting- permission, and allow LoRaTracker use the Location and Storage permission</string>
+    <string name="permission_location_need_title">Turn on Location permission</string>
+    <string name="permission_location_need_content">After that, LoRaTracker could search and connect with the Device</string>
+    <string name="title_advertiser">ADVERTISER</string>
+    <string name="title_scanner">SCANNER</string>
+    <string name="title_setting">SETTINGS</string>
+    <string name="title_device">DEVICE</string>
+    <string name="lora_setting">LoRa Settings</string>
+    <string name="scan_window_tips">The setting of the scanning window represents the proportion of the scanning time. If you set to 0, the device will stop scanning.</string>
+
+    <string-array name="tracking_notify">
+        <item>Off</item>
+        <item>Light</item>
+        <item>Vibration</item>
+        <item>Light+Vibration</item>
+    </string-array>
+    <string-array name="lora_connectable">
+        <item>Disconnected</item>
+        <item>Connected</item>
+        <item>Connecting</item>
+    </string-array>
+    <string-array name="region">
+        <item>EU868</item>
+        <item>US915</item>
+        <item>US915HYBRID</item>
+        <item>CN779</item>
+        <item>EU433</item>
+        <item>AU915</item>
+        <item>AU915OLD</item>
+        <item>CN470</item>
+        <item>AS923</item>
+        <item>KR920</item>
+        <item>IN865</item>
+        <item>CN470PREQUEL</item>
+        <item>STE920</item>
+    </string-array>
+    <string-array name="upload_mode">
+        <item>ABP</item>
+        <item>OTAA</item>
+    </string-array>
+    <string-array name="message_type">
+        <item>Unconfirmed</item>
+        <item>Confirmed</item>
+    </string-array>
+    <string-array name="vibration_intensity">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>Strong</item>
+    </string-array>
+</resources>
